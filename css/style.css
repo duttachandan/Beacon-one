@@ -82,6 +82,7 @@ Header Section
 .navbar-brand {
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 .nav-btn-sm {
   display: none;
@@ -104,12 +105,8 @@ Header Section
   background: white;
   border-radius: 50%;
   overflow: hidden;
-  top: -1.125vw;
+  top: 0;
   left: 52px;
-}
-
-.navbar-brand {
-  max-width: 224px;
 }
 
 .navbar-brand > img {
@@ -127,10 +124,14 @@ Header Section
   color: #aa6aaa;
 }
 
+.offcanvas {
+  z-index: 9999;
+}
+
 /* Banner Section */
 
 .banner-section {
-  padding: 0px 3.125vw 90px; /* to calculate the vw use px to vw website*/
+  padding: 0px 15px 90px; /* to calculate the vw use px to vw website*/
 }
 
 .banner-wrpr {
@@ -228,7 +229,7 @@ Header Section
 
   .nav-logo {
     max-width: 110px;
-    left: 3.125vw;
+    left: 15px;
   }
   .navbar-toggler {
     border: none;
