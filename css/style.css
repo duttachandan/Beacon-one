@@ -219,13 +219,18 @@ Header Section
 
 /* Testimonial Section */
 
+.testimonial-container {
+  max-width: 1107px;
+  margin: 0 auto;
+}
+
 .testimonial-items {
   overflow: hidden;
 }
 
 .testimonial-img {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   margin: 0 auto;
   transform: scale(0.5);
   filter: grayscale(1);
