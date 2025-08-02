@@ -217,6 +217,42 @@ Header Section
   margin: 72px 0 77px;
 }
 
+/* Testimonial Section */
+
+.testimonial-items {
+  overflow: hidden;
+}
+
+.testimonial-img {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  transform: scale(0.5);
+  filter: grayscale(1);
+  transition: all 0.3s linear;
+}
+
+.testimonial-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.testimonial-items.slick-center .testimonial-img {
+  transform: scale(1);
+  filter: grayscale(0);
+}
+
+.testimonial-items.sl-next .testimonial-img,
+.testimonial-items.sl-prev .testimonial-img {
+  transform: scale(0.8);
+  filter: grayscale(0.7);
+}
+
+.testimonial-cntn-items {
+  text-align: center;
+}
+
 @media screen and (max-width: 992px) {
   .title1 {
     font-size: 32px;
